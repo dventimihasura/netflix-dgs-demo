@@ -1,0 +1,10 @@
+# -*- mode: graphql -*-
+
+type Query {
+    shows(titleFilter: String): [Show]
+}
+
+type Show {
+    title: String
+    releaseYear: Int
+}
